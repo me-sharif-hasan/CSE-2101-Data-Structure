@@ -145,8 +145,8 @@ private:
         for(i=0;i<students;++i){
             for(j=0;j<students-1;++j){
                 if(student_list[j+1].get_cgpa()>student_list[j].get_cgpa()){
-                    Student tmp=student_list[i];
-                    student_list[i]=student_list[j];
+                    Student tmp=student_list[j+1];
+                    student_list[j+1]=student_list[j];
                     student_list[j]=tmp;
                 }
             }
