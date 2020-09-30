@@ -99,7 +99,7 @@ public:
             cout<<"\nStudent ID: ";
             cin>>tmp;
             student_list[i].set_student_id(tmp);
-            student_list[i].total_courses(3);
+            student_list[i].total_courses(courses);
             int j;
             Course results[courses];
             for(j=0;j<courses;++j){
@@ -159,7 +159,7 @@ private:
 
 
 int main() {
-    Semester semester_one(5/*Number of students*/,3/*Number of courses*/);
+    Semester semester_one(3/*Number of students*/,3/*Number of courses*/);
     semester_one.set_students(); //Take the inputs
     unsigned int roll;
     cout<<"Enter the student ID: ";
