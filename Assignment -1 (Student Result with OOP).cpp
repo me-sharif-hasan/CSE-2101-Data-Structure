@@ -38,6 +38,9 @@ public:
         courses= nullptr;
         cgpa=0.0;
     }
+    ~Student(){
+        delete[] courses;
+    }
     void set_student_id(const unsigned int student_id){
         this->id=student_id;
     }
@@ -90,6 +93,9 @@ public:
         students=total_students;
         courses=total_courses;
         student_list= nullptr;
+    }
+    ~Semester(){
+        delete[] student_list;
     }
     void set_students(){
         int i;
