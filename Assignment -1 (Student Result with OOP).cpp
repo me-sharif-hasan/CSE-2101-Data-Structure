@@ -129,7 +129,7 @@ public:
     }
 
     /*
-     * Performing Linear search in the students array to finding a result
+     * Performing Linear search in the students array to find a result on given student id
      */
     void get_result(unsigned int id){
         int i;
