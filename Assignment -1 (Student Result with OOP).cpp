@@ -85,7 +85,7 @@ private:
 };
 
 /*
- * Class Semester keep the records of all students who participated in the semester and also sort them in descending order.
+ * Class Semester will keep the records of all students who participated in the semester and also sort them according to the descending order.
  */
 class Semester{
 public:
