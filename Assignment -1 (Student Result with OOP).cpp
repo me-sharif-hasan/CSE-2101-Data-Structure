@@ -35,7 +35,7 @@ public:
     Student(){
         id=0;
         total_course=0;
-        courses= nullptr;
+        courses= NULL;
         cgpa=0.0;
     }
     ~Student(){
@@ -92,7 +92,7 @@ public:
     Semester(const unsigned int total_students,const unsigned int total_courses){
         students=total_students;
         courses=total_courses;
-        student_list= nullptr;
+        student_list= NULL;
     }
     ~Semester(){
         delete[] student_list;
